@@ -35,7 +35,7 @@ struct operation *sptr; // stack pointer
 struct operation *max_sptr; // maximum stack pointer for redo
 ```
 Editor commands:
-```shell
+```text
 F bl → pushes blur operation on the stack
 F gr → pushes grayscale operation on the stack
 U → updates stack pointer
@@ -49,9 +49,11 @@ X → quit
 ```
 To compile:
 ```shell
-gcc main.c gfx.c -o Iedit -lX11 -lm
+on 🌱 master
+✦ ❯ gcc main.c gfx.c -o Iedit -lX11 -lm
 ```
 To run:
 ```shell
-./Iedit file.bmp
+on 🌱 master
+✦ ❯ ./Iedit file.bmp
 ```
