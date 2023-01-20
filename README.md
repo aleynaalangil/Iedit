@@ -1,5 +1,5 @@
 # Iedit
-Image editor in C using gfx graphics tool. 
+Image editor in C using [gfx graphics tool](https://www3.nd.edu/~dthain/courses/cse20211/fall2013/gfx/). 
 The editor performs the following functions:
 - E (edit): Opens the specified bitmap file and a window on the screen. If the file exists, its contents are drawn on the window.
 - F (filter): Applies the following operations on the image:
